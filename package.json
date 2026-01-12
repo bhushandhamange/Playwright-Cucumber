@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhushandhamange/Playwright-Cucumber.git"
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/bhushandhamange/Playwright-Cucumber#readme",
   "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.6"
+    "@types/node": "^25.0.6",
+    "ts-node": "^10.9.2"
   }
 }
